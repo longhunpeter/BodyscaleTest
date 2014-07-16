@@ -36,17 +36,17 @@ public class Config {
      * 汇思科使用的双列标签
      */
 
-    public static final int PRINT_OFFSET_X = 10;
-    public static final int PRINT_OFFSET_Y = 20;
-    public static final int QR_BITMAP_SIZE = 230;//生成二维码bitmap尺寸
+//    public static final int PRINT_OFFSET_X = 10;
+//    public static final int PRINT_OFFSET_Y = 20;
+//    public static final int QR_BITMAP_SIZE = 230;//生成二维码bitmap尺寸
 
     /**
      * 2014.5.6  19*19单列标签 森诺维
      */
 
-//    public static final int PRINT_OFFSET_X = 15;
-//    public static final int PRINT_OFFSET_Y = 10;
-//    public static final int QR_BITMAP_SIZE = 160;//生成二维码bitmap尺寸
+    public static final int PRINT_OFFSET_X = 15;
+    public static final int PRINT_OFFSET_Y = 10;
+    public static final int QR_BITMAP_SIZE = 160;//生成二维码bitmap尺寸
 
 
     public static final String RESERVED_CODE = "00000";//预留码
@@ -63,8 +63,8 @@ public class Config {
 
     public static final String DEVICE_VERSION_CODE = "2";//终端版本号
 
-    public static final String DEVICE_PROVIDE_CODE = "01";//外包供应商代码:汇思科
-//    public static final String DEVICE_PROVIDE_CODE = "02";//外包供应商代码:森诺维
+    //    public static final String DEVICE_PROVIDE_CODE = "01";//外包供应商代码:汇思科
+    public static final String DEVICE_PROVIDE_CODE = "02";//外包供应商代码:森诺维
 
 
     public static final String DEVICE_STATUS_CODE = "0";//设备状态全新

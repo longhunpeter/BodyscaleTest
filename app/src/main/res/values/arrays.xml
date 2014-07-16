@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="device_code_name">
-        <item>经典版</item>
-        <item>时尚版</item>
-        <!--<item>青春版</item>-->
+        <!--<item>经典版</item>-->
+        <!--<item>时尚版</item>-->
+        <item>青春版</item>
     </array>
 
     <integer-array name="device_code_index">
-        <item>101</item>
-        <item>102</item>
-        <!--<item>103</item>-->
+        <!--<item>101</item>-->
+        <!--<item>102</item>-->
+        <item>103</item>
     </integer-array>
 
 
     <array name="device_color_name">
-        <item>白色</item>
-        <item>黑色</item>
-        <!--<item>魅力红</item>-->
-        <!--<item>青春绿</item>-->
-        <!--<item>明媚黄</item>-->
-        <!--<item>活力蓝</item>-->
-        <!--<item>轻悦紫</item>-->
+        <!--<item>白色</item>-->
+        <!--<item>黑色</item>-->
+        <item>魅力红</item>
+        <item>青春绿</item>
+        <item>明媚黄</item>
+        <item>活力蓝</item>
+        <item>轻悦紫</item>
     </array>
 
 
     <integer-array name="device_color_index">
-        <item>0</item>
-        <item>1</item>
-        <!--<item>2</item>-->
-        <!--<item>3</item>-->
-        <!--<item>4</item>-->
-        <!--<item>5</item>-->
-        <!--<item>6</item>-->
+        <!--<item>0</item>-->
+        <!--<item>1</item>-->
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
     </integer-array>
 
     <!--翻新机状态码-->
