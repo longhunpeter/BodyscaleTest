@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/print_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/title_ground_color">
+        <TextView
+            android:id="@+id/test_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            android:textColor="#ffffffff"
+            android:text="@string/print_code_title"
+            />
+        <Button
+            android:id="@+id/print_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_press"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/back_btn"
+            android:textColor="#ffffff" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/test_success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/print_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/test_success"
+        android:textColor="#ffff2821"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/display_params"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/test_success"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffff2821"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/qr_code_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/display_params"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/qr_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二维码："
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/result_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qr_text"
+            android:layout_marginTop="10dp"
+            android:singleLine="false"
+            android:textColor="#ffff2821"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/get_qrCode_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/print_code_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/qr_code_layout"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_press"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/btn_print_code"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

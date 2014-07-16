@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">体质秤检测</string>
+    <string name="setting_title_text">参数配置</string>
+    <string name="test_title_text">蓝牙测试</string>
+    <string name="print_code_title">打印二维码</string>
+
+    <string name="device_code_text">产品版本</string>
+    <string name="device_color_text">产品颜色</string>
+    <string name="set_print_ip">ip地址：</string>
+
+    <string name="btn_next">下一步</string>
+    <string name="test_btn">测试</string>
+    <string name="back_btn">返回</string>
+    <string name="btn_print_code">打印二维码</string>
+
+    <string name="ip_toast">ip地址不能为空</string>
+
+    <string name="ble_not_supported">该设备不支持蓝牙4.0</string>
+
+    <string name="scan_ble_now">正在扫描蓝牙设备...</string>
+    <string name="scan_ble_success">扫描到蓝牙设备，正在获取设备编码：</string>
+    <string name="scan_ble_fail">未扫描到蓝牙设备，请重新测试...</string>
+    <string name="device_connect_fail">设备蓝牙断开</string>
+    <string name="device_connect_success">蓝牙连接成功，等待发送指令...</string>
+    <string name="send_order">发送指令测试...</string>
+    <string name="test_ble_success">测试蓝牙成功,可重新测试！</string>
+    <string name="test_ble_fail">测试蓝牙失败，请重新测试！</string>
+    <string name="test_success">测试成功！！！</string>
+    <string name="get_device_code">获取设备编码成功，正在连接蓝牙...</string>
+    <string name="get_deviceCode_fail">获取编号失败,请重测！</string>
+
+    <string name="print_toast_success">打印成功！</string>
+    <string name="print_toast_fail">打印失败！</string>
+    <string name="upload_fail">提交失败</string>
+    <string name="network_error">网络错误</string>
+    <string name="print_no_bitmap">未能生成二维码</string>
+    <string name="print_params_error">配置参数错误无法打印</string>
+    <string name="get_params_failed">获取相关配置失败</string>
+
+
+
+</resources>

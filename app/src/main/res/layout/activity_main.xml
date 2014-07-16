@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+ >
+
+    <RelativeLayout
+        android:id="@+id/setting_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/title_ground_color">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="25sp"
+            android:textColor="#ffffffff"
+            android:text="@string/setting_title_text"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/deviceCode_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/setting_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/setting_ground"
+        >
+        <TextView
+            android:id="@+id/set_device_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="22dp"
+            android:textColor="#ffffffff"
+            android:text="@string/device_code_text"
+            />
+
+        <TextView
+            android:id="@+id/display_device_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:textSize="22dp"
+            android:textColor="#ffffffff"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/deviceColor_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/deviceCode_layout"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/setting_ground"
+        >
+        <TextView
+            android:id="@+id/set_device_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="22dp"
+            android:textColor="#ffffffff"
+            android:text="@string/device_color_text"
+            />
+
+        <TextView
+            android:id="@+id/display_device_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:textSize="22dp"
+            android:textColor="#ffffffff"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/ipAddress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deviceColor_layout"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/setting_ground"
+        >
+
+        <TextView
+            android:id="@+id/address_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/set_print_ip"
+            android:textColor="#ffffffff"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ip_address"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:inputType="none"
+            android:layout_toRightOf="@id/address_text"
+            android:cursorVisible="true"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+    <Spinner
+        android:id="@+id/device_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:background="@drawable/btn_press"
+        android:layout_below="@id/ipAddress_layout"
+        />
+
+
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/device_status"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_press"
+        android:gravity="center"
+        android:text="@string/btn_next"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        />
+
+
+
+</RelativeLayout>
