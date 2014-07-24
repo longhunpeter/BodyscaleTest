@@ -51,15 +51,6 @@ public class Config {
 
     public static final String RESERVED_CODE = "00000";//预留码
 
-//    public static final int DEVICE_CODE_SUTRA = 101;//终端设备代码经典版
-//
-//    public static final int DEVICE_CODE_FASHION = 102;//终端设备代码时尚版
-//
-//    public static final int DEVICE_CODE_YOUNG = 103;//终端设备代码青春版
-//
-//    public static final int DEVICE_COLOR_WHITE = 0;
-//    public static final int DEVICE_COLOR_BLACK = 1;
-
 
     public static final String DEVICE_VERSION_CODE = "2";//终端版本号
 
